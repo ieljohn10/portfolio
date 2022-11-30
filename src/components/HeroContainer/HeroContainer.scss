@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+.HeroContainer{
+    height: 100vh;
+    // width: 100%;
+    background: #202020;
+
+    .Container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        overflow-x: hidden;
+        // background-color: oldlace;
+
+        .Container-Item{
+            // height: 100v;
+            width: 100%;
+            margin: 20px;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        
+        #Home{
+            height: 100vh;
+            // width: 100%;
+            display: flex;
+
+            .HeroTextContainer{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+
+                .HeroText{
+                    height: 400px;
+                    width: 630px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+                h1{
+                    color: #DEDEDE;
+                    font-size: 60px;
+                    font-weight: 600;
+                    word-break: break-all;
+                    // line-height: 25px;
+                    letter-spacing: 0.5px;
+                }
+                p{
+                    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    // width: 500px;
+                    word-break: break-all;
+                    font-weight: 100;
+                }
+                button{
+                    border: 2px solid #DEDEDE;
+                    height: 50px;
+                    width: 100px;
+                    background-color: transparent;
+                }
+            }
+
+            .HeroProfileContainer{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                > img {
+                    height: 450px;
+                    width: 450px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    outline: none;
+                }
+                
+            }
+        }
+    }
+}

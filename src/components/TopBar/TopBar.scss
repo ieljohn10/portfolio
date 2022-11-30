@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.TopBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #191919f5;
+    backdrop-filter: blur(10px);
+    h2{
+        color: #DEDEDE;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 200px;
+        li{
+            color: #DEDEDE;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 25px;
+            letter-spacing: 1px;
+        }
+    }
+}
