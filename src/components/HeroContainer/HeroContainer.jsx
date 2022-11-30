@@ -12,7 +12,12 @@ export default function HeroContainer(){
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                 Consequatur doloribus facilis molestiae velit inventore quae repellat ratione non temporibus saepe architecto, 
                                 repudiandae recusandae ipsam quas dolorum! Rerum quisquam dolore tempore!</p>
-                                <button>EXPLORE</button>
+                                <button class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">Learn More</span>
+                                </button>
                        </div>
                     </div>
                     <div className="HeroProfileContainer">
