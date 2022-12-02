@@ -29,11 +29,12 @@
 
 #Home{
     .HomeContent{
-        // height: 100vh;
+        height: 90vh;
+        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         .HomeContent-Item{
             height: 100vh;
             width: 100%;
@@ -107,7 +108,7 @@
         overflow: hidden;
         cursor: pointer;
         border-radius: 2px;
-        transition: all 3s;
+        transition: all 0.5s;
         // background: #212121;
         border: 1px solid #212121;
         display: flex;
@@ -115,35 +116,24 @@
         align-items: center;
            
     }
+        .card p:hover{
+            transition: all .3s;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+                span{
+                color: #fff;
+                background-color: rgba(0,0,0,0.8);
+                }
+        }
         .card p:nth-child(1):hover{
         background-image: url('../../assets/work-experience.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-            span{
-            color: #fff;
-            background-color: rgba(0,0,0,0.8);
-            }
         }
         .card p:nth-child(2):hover{
             background-image: url('../../assets/computer-with-code.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            span{
-                color: #fff;
-                background-color: rgba(0,0,0,0.8);
-            }
         }
         .card p:nth-child(3):hover{
             background-image: url('../../assets/school.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            span{
-                color: #fff;
-                background-color: rgba(0,0,0,0.8);
-            }
         }
       .card p:hover {
         flex: 4;
