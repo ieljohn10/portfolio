@@ -4,28 +4,10 @@ import ProfilePic from '../../assets/profile.jpg';
 export default function HeroContainer(){
     return(
         <div className="HeroContainer">
-            <div className="Container">
-                <div className="Container-Item" id='Home'>
-                    <div className="HeroTextContainer">
-                       <div className="HeroText">
-                            <h1>Hi, I am Ariel Galvez A Front-end Engineer Based in City.</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                                Consequatur doloribus facilis molestiae velit inventore quae repellat ratione non temporibus saepe architecto, 
-                                repudiandae recusandae ipsam quas dolorum! Rerum quisquam dolore tempore!</p>
-                                <button class="learn-more">
-                                    <span class="circle" aria-hidden="true">
-                                        <span class="icon arrow"></span>
-                                    </span>
-                                    <span class="button-text">Learn More</span>
-                                </button>
-                       </div>
-                    </div>
-                    <div className="HeroProfileContainer">
-                        <img src={ProfilePic} alt="profile" />
-                    </div>
-                </div>
-                <div className="Container-Item" id='Work'>WORK</div>
-                <div className="Container-Item" id='Cnntact'>CONTACT</div>
+            <div className="ScrollContainer">
+                <div className="HeroContainer-Item">1</div>
+                <div className="HeroContainer-Item">2</div>
+                <div className="HeroContainer-Item">3</div>
             </div>
         </div>
     )
