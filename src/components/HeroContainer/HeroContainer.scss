@@ -91,10 +91,6 @@
 }
 
 #Work{
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-
     .card {
         width: 100%;
         height: 100%;
@@ -117,13 +113,44 @@
         display: flex;
         justify-content: center;
         align-items: center;
-      }
-      
+           
+    }
+        .card p:nth-child(1):hover{
+        background-image: url('../../assets/work-experience.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+            span{
+            color: #fff;
+            background-color: rgba(0,0,0,0.8);
+            }
+        }
+        .card p:nth-child(2):hover{
+            background-image: url('../../assets/computer-with-code.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            span{
+                color: #fff;
+                background-color: rgba(0,0,0,0.8);
+            }
+        }
+        .card p:nth-child(3):hover{
+            background-image: url('../../assets/school.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            span{
+                color: #fff;
+                background-color: rgba(0,0,0,0.8);
+            }
+        }
       .card p:hover {
         flex: 4;
       }
       
       .card p span {
+        font-size: 5vh;
         min-width: 14em;
         padding: .5em;
         text-align: center;
