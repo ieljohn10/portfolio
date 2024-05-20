@@ -1,4 +1,5 @@
 import "./App.scss"
+import MainContent from "./components/main-content"
 import SideBar from "./components/sidebar"
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <div className="content">
         <SideBar />
+        <MainContent />
       </div>
     </div>
   )

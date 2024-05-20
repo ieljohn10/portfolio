@@ -1,0 +1,36 @@
+.sidebar {
+  padding: 10px;
+  border-radius: 8px;
+  width: 305px;
+  height: max-content;
+  // background: rgba(25, 25, 25, 0.2);
+  // border-radius: 16px;
+  // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  // backdrop-filter: blur(5px);
+  // -webkit-backdrop-filter: blur(5px);
+  // border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  background: #191919;
+  box-shadow: inset 5px 5px 10px #151515, inset -5px -5px 10px #1d1d1d;
+
+  .content {
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+
+    .divider {
+      margin: 20px auto;
+      height: 1px;
+      background-color: #e3651d;
+      width: 230px;
+    }
+
+    .personal_details {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 25px;
+      font-size: 0.8rem;
+    }
+  }
+}

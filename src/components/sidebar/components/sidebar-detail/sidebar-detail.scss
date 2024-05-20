@@ -1,0 +1,39 @@
+.sidebar_detail {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+
+  .border-icon {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // border-radius: 100%;
+    // background: #191919;
+    // box-shadow: inset 5px -5px 10px #141414, inset -5px 5px 10px #1e1e1e;
+
+    .icon_container {
+      padding: 5px;
+      line-height: 12px;
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.5px;
+
+    .label {
+      color: #e3651d;
+      font-weight: 600;
+    }
+
+    .desc {
+      // padding: 2.5px 5px;
+      // background-color: #3c3c3c;
+      color: #fff;
+    }
+  }
+}
