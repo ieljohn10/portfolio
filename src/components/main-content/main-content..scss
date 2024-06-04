@@ -1,6 +1,30 @@
 .mainContent {
+  // padding: 15px 30px;
+  // position: relative;
   width: 100%;
   border-radius: 12px;
   background: #191919;
   box-shadow: inset 5px 5px 10px #151515, inset -5px -5px 10px #1d1d1d;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  h1 {
+    width: max-content;
+    position: relative;
+    letter-spacing: 1.5px;
+    color: #fff;
+
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   bottom: -15px;
+    //   left: 0;
+    //   height: 5px;
+    //   width: 50px;
+    //   background-color: #e3651d;
+    // }
+  }
 }
