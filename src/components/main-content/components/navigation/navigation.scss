@@ -18,11 +18,13 @@ nav {
     align-items: center;
 
     display: flex;
+
     li {
       letter-spacing: 1.5px;
       margin: 0 20px;
       color: #fff;
       font-weight: lighter;
+      user-select: none;
 
       &:hover {
         cursor: pointer;

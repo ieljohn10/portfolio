@@ -6,10 +6,12 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 
   .header {
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
+
     h1 {
-      padding: 10px;
+      padding: 10px 20px;
       width: max-content;
       position: relative;
       letter-spacing: 1.5px;
@@ -18,12 +20,16 @@
       &::after {
         content: "";
         position: absolute;
-        bottom: -15px;
-        left: '-15px';
+        bottom: 0;
+        left: 20px;
         height: 5px;
-        width: 50px;
+        width: 100px;
         background-color: #e3651d;
       }
     }
+  }
+
+  .content {
+    border: 1px solid white;
   }
 }

@@ -4,6 +4,7 @@ import { Profile1 } from "../../assets/index"
 import User from "./components/user"
 import Details from "./components/sidebar-detail"
 import { MdOutlineEmail, MdLocalPhone, MdLocationPin } from "react-icons/md"
+import { FaGithub } from "react-icons/fa"
 
 const SideBar = () => {
   return (
@@ -21,7 +22,12 @@ const SideBar = () => {
           <Details
             icon={<MdLocationPin />}
             label="Location"
-            desc="arielglvz@gmail.com"
+            desc="Bulacan, Philippines"
+          />
+          <Details
+            icon={<FaGithub />}
+            label="Github"
+            desc="https://github.com/ieljohn10"
           />
         </div>
       </div>
